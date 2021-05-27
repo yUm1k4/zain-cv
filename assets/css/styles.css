@@ -216,6 +216,10 @@ img {
   padding: 1.5rem 0;
 }
 
+.pb-custom {
+  padding-bottom: 1.5rem;
+}
+
 .section-title {
   font-size: var(--h2-font-size);
   color: var(--title-color);
@@ -457,6 +461,11 @@ img {
 .experience__company {
   font-size: var(--small-font-size);
   color: var(--title-color);
+}
+
+.education__detail {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
 }
 
 .education__year {
