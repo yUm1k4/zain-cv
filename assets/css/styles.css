@@ -204,6 +204,11 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--text-color-light);
+}
+
+a:hover {
+  color: var(--title-color);
 }
 
 img {
@@ -240,7 +245,8 @@ img {
 
 .bd-grid {
   display: grid;
-  gap: 1.5rem;
+  /* gap: 1.5rem; */
+  gap: 1rem;
 }
 
 .l-header {
@@ -510,10 +516,12 @@ img {
   gap: .25rem;
 }
 
+.certificate__subtitle,
 .references__subtitle {
   color: var(--text-color-light);
 }
 
+.certificate__subtitle,
 .references__subtitle,
 .references__contact {
   font-size: var(--smaller-font-size);
